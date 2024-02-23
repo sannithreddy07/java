@@ -7,15 +7,16 @@ public class RemoveWhitespacesinString {
 		String wspaces="";
 	
 		for(int i=0;i<s.length();i++) {
-			if(s.charAt(i)!=' ')
+			if(s.charAt(i)!=' ') {
 				
 				wspaces=wspaces+s.charAt(i);
-			
+			}}
 				
-			}
+			
 		System.out.println(wspaces);
 	
 		}
 	}
+
 
 
