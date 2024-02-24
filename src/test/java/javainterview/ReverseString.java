@@ -5,6 +5,7 @@ public class ReverseString {
 	public static void main(String[] args) {
 		
 		String s="sannith";
+	
 		
 		String rev="";
 		
@@ -26,12 +27,12 @@ public class ReverseString {
 //		rev=rev+a[i]; //a[6]=h rev=h 
 //	}
 	
-		//Method 3 -- using StringBuilder
+		//Method 3 -- using StringBuffer
 
 //	StringBuffer sbf=new StringBuffer(s); // passing the s string to sbf object
 //	StringBuffer rev=sbf.reverse(); 	//reversing the sbf using reverse method
 		
-		//Method 3 -- using StringBuffer
+		//Method 3 -- using StringBuilder
 	
 //	StringBuilder sbl=new StringBuilder();
 //	sbl.append(s); //storing the string value of s in sbl object by using append method 
