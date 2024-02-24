@@ -1,4 +1,4 @@
-package javainterview;
+package javapropack;
 
 public class SumofelementsiArray {
 	public static void main(String[] args) {

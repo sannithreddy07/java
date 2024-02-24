@@ -1,4 +1,4 @@
-package javainterview;
+package javapropack;
 
 import java.util.Arrays;
 

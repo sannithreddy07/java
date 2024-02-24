@@ -1,4 +1,4 @@
-package javainterview;
+package javapropack;
 
 public class NumberofEvenandOdd {
 public static void main(String[] args) {

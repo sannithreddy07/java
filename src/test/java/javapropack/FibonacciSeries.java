@@ -1,4 +1,4 @@
-package javainterview;
+package javapropack;
 
 public class FibonacciSeries { // sum of two preceeding number is Fibanoacci series
 	
