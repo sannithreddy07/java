@@ -8,13 +8,13 @@ public class PalindromeNumber {
 		
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter a number");
-	int num=sc.nextInt();
+	int num=sc.nextInt(); 
 	int org_num=num; // storing the actual value in org_num variable 1234
 	int rev=0;
 	
 	while(num!=0) {
 		
-		rev=rev*10+num%10;
+		rev=rev*10+num%10; //0+4=4 //40+3=43 //430+2=432 //4320+1=4321
 		num=num/10;
 	}
 	System.out.println(rev);

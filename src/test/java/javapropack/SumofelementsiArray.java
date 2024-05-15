@@ -15,5 +15,12 @@ public class SumofelementsiArray {
 			 sum=sum+temp;
 		 }
 		 System.out.println(sum);
+		 int sum1=0;
+		 for(int i=0;i<=a.length-1;i++) {
+			
+			sum1=sum1+a[i];
+			 if(a[i]==sum1 )break;
+		 }
+		 System.out.println(sum1);
 	}
 }

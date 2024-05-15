@@ -14,14 +14,16 @@ public class Arraylist {
 
 		//ArrayList al=new ArrayList();
 
-		//List al=new ArrayList();
+		//List<Object> al=new ArrayList<Object>();
 		//add method  --add(index, object)
-		//		al.add("srei");
-		//		al.add(50);
-		//		al.add(true);
-		//		al.add(50.5);
+//				al.add("srei");
+//				al.add(50);
+//				al.add(true);
+//				al.add(50.5);
+		
+	//	System.out.println(al);
 
-		ArrayList <String>al= new ArrayList<String>();
+	ArrayList <String>al= new ArrayList<String>();
 
 		//add method  --add(index, object)
 		al.add("sri");
@@ -91,29 +93,29 @@ public class Arraylist {
 
 		//for loop  //to read each element from arraylist
 
-//		System.out.println("for loop array list");
-//		for(int i=0;i<al.size();i++) {
-//			System.out.println(al.get(i));// to retrieve each element use get(index) method
-//		}
-//
-//		//for each loop
-//		System.out.println("for eah loop arraylist");	
-//		for(String temp:al) { // assing each element in temp variable and print and 
-//			//reomve that from temp and replace with new one and repaet till loop ends
-//			//if arraylist object has all kinds of data/heteorgenous data and want to print that in for each loop use Object Array
-//			//ex: for(Object temp:al);
-//							
-//			System.out.println(temp);
-//		}
-//
-//		//iterator //this is from collectio frameworks
-//
-//		System.out.println("iterator in arraylist");
-//		Iterator it=al.iterator(); //Iterator is interface from Collection Interface
-//		while(it.hasNext()) { //it will check/read the elemnets present in arraylist or not 
-//			//if true follow iteration--false exit
-//	System.out.println(it.next()); //if true it will check each element and print that element and go for next 
-	
+		System.out.println("for loop array list");
+		for(int i=0;i<al.size();i++) {
+			System.out.println(al.get(i));// to retrieve each element use get(index) method
+		}
+
+		//for each loop
+		System.out.println("for eah loop arraylist");	
+		for(String temp:al) { // assing each element in temp variable and print and 
+		//reomve that from temp and replace with new one and repaet till loop ends
+		//if arraylist object has all kinds of data/heteorgenous data and want to print that in for each loop use Object Array
+		//ex: for(Object temp:al);
+							
+			System.out.println(temp);
+		}
+
+		//iterator //this is from collectio frameworks
+
+		System.out.println("iterator in arraylist");
+		Iterator it=al.iterator(); //Iterator is interface from Collection Interface
+		while(it.hasNext()) { //it will check/read the elemnets present in arraylist or not 
+			//if true follow iteration--false exit
+	System.out.println(it.next()); //if true it will check each element and print that element and go for next 
+		}
 	
 	System.out.println("******to sort elemnets of arraylist");
 	Collections.sort(al);
@@ -127,7 +129,7 @@ public class Arraylist {
 	Collections.shuffle(al);
 	System.out.println(al);
 	
-	//To conver array to arrayList
+	//To conver array to arrayList 
 	
 	String arr[]= {"apple" ,"ball","cat"};
 	

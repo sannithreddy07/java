@@ -8,7 +8,7 @@ public class EvenandOddfromArray {
 		 int ocount=0;
 		 
 		 for(int i=0;i<=a.length-1;i++) {
-			 if(a[i]%2==0) { //extract the number first and %2 if rem is it is even else odd
+			 if(a[i]%2==0) { //extract the number first and %2 if rem =0 ,is it is even else odd
 				 count++;
 				 System.out.print(" "+a[i]);
 			 }
